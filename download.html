@@ -1,0 +1,82 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>jriwor</title>
+  <style>
+  @font-face {
+  font-family: Raleway-Light;
+  src: url('Raleway-Light.ttf');
+  }
+  @font-face{
+    font-family: Raleway-Medium;
+    src: url('Raleway-Medium.ttf');
+  }
+  #menu{
+  position:fixed;
+  height:115px;
+  width:110%;
+  top:0px;
+  left:0px;
+  background-color: lightgray;
+  opacity: 0.5;
+  min-width: 110%;
+  min-height: 115px;
+}
+li{
+  font-family: Raleway-Medium;
+  font-size: 45px;
+  display: inline-block;
+  padding: 10px;
+ }
+ a {
+  text-decoration: none;
+  display: block;
+  transition-duration: 1s;
+  color: #000000;
+ }
+ a:hover{
+   color:lightgray;
+   background:black;
+ }
+ a.ewr{
+   text-decoration: none;
+   display: block;
+   transition-duration: 1s;
+   color: #000000;
+   color:white;
+ }
+ a.ewr:hover{
+   color:lightgray;
+   background:black;
+   opacity:0.7;
+ }
+ h1{
+   font-family: Raleway-Light;
+   position: absolute;
+   font-size: 50px;
+   color:black;
+ }
+ #bg{
+   position:fixed;
+     z-index: -1;
+     top:0;
+     left:0;
+     min-width:100%;
+     min-height:100%;
+ }
+  </style>
+</head>
+<body>
+  <nav id="menu" style="top:1%;left:0.5%;">
+    <ul>
+      <li><a href="index.html">SkyNetBot</a></li>
+      <li><a href="">Download</a></li>
+    </ul>
+  </nav>
+  <div>
+    <article>
+    <img src="background.jpg" id="bg">
+    <h1 style="left:45%;top:50%;"><a href="" class="ewr">Download source</a></h1>
+  </article>
+  </div>
+</body>
